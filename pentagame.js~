@@ -1,5 +1,3 @@
-// Hier beginnt die Pentagame Programmiererei...
-
 var canvas_click;
 var canvas_board;
 var canvas_play;
