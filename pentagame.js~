@@ -10,7 +10,7 @@ var pentaGame;
 var sqrt5=Math.sqrt(5);
 var phi=(sqrt5+1)/2;
 	var rs = 12;  // radius step (litle gray dots)  // this is the only absolute variable 
-        var ros=(8/12)*rs ;   // radius outer rim step // utter bollocks
+        var ros=(8/12)*rs ;   // radius outer rim step
 	var rj = rs*(9-2*sqrt5)/sqrt5; // 19;  // radius junction
 	var rc = rs*sqrt5;   //	21;  // radius corner
 	var rr = ((2*rc+4*rj+30*rs)/(Math.sqrt(phi+2))); // radius mid corner
@@ -144,7 +144,6 @@ function drawPentaGame(context, isBoard) {
                 }
 
 		var ii = (i < 3 ? i + 2 : i - 3);
-//		var ii = (i);
 		var ij = ii == 4 ? 5	: ii + 6;
                 
                 var ik = (i + 1) % 5; // needed for outer rim                
