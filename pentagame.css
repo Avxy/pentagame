@@ -1,0 +1,22 @@
+
+.pentacanvascontainer {
+  position: relative;
+	width: 601px;
+	float: left;
+}
+
+.pentacanvascontainer > canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#pentapanel {
+	margin-left: 550px;
+}
+
+/* 
+  vim: ts=2 sw=2 tw=0 noet
+ */
+
+
